@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import { Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom';
-import Signup from './pages/Signup';
-import Login from './pages/Login';
-import BooksList from './pages/BooksList';
-import BookDetails from './pages/BookDetails';
-import AddEditBook from './pages/AddEditBook';
-import Profile from './pages/Profile';
+import Signup from './Pages/Signup';
+import Login from './Pages/Login';
+import BooksList from './Pages/BooksList';
+import BookDetails from './Pages/BookDetails';
+import AddEditBook from './Pages/AddEditBook';
+import Profile from './Pages/Profile';
 import ProtectedRoute from './components/ProtectedRoute';
 import { AuthContext } from './context/AuthContext.jsx';
 import { useTheme } from './context/ThemeContext.jsx';
